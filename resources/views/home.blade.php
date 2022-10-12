@@ -10,6 +10,7 @@
                     <div class="card">
                         <a href="">
                             <h3>{{$train->azienda}}</h3>
+                            <h3>Data : {{$train->data}}</h3>
                             <h5>codice del treno : {{$train->codice_treno}}</h5>
                             <p>numero di carrozze : {{$train->numero_carrozze}}</p>
                             <p>
